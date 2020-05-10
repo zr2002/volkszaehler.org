@@ -387,6 +387,19 @@
 		}
 	},
 	{
+		"name"			: "precip",
+		"optional"		: ["resolution", "tolerance", "local", "gap"],
+		"icon"			: "rain.png",
+		"unit"			: "mm",
+		"interpreter"		: "Volkszaehler\\Interpreter\\SensorInterpreter",
+		"model"			: "Volkszaehler\\Model\\Channel",
+		"translation"		: {
+			"de" : "Niederschlag",
+			"en" : "precipitation",
+			"fr" : "precipitation"
+		}
+	},
+	{
 		"name"			: "windspeed",
 		"optional"		: ["resolution"],
 		"icon"			: "propeller.png",
